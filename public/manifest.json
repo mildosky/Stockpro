@@ -1,0 +1,21 @@
+{
+  "name": "StockPro - Business Management System",
+  "short_name": "StockPro",
+  "description": "Restaurant & Supermarket Management System - Track products, sales, inventory, and generate reports",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#4f46e5",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "lang": "en-US",
+  "dir": "ltr"
+}

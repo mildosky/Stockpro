@@ -1,0 +1,87 @@
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║   STOCKPRO - Restaurant & Supermarket Management System       ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+🚀 HOW TO RUN (3 OPTIONS):
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+OPTION 1: EASIEST (Recommended)
+────────────────────────────────
+   Just double-click: start.bat
+   
+   This will automatically:
+   • Build the app (if needed)
+   • Start the server
+   • Open in your browser
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+OPTION 2: MANUAL START
+────────────────────────
+   Open Command Prompt in this folder, then type:
+   
+   node server.cjs
+   
+   Then open: http://localhost:3000
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+OPTION 3: DIRECT OPEN (No Server)
+──────────────────────────────────
+   Open this file in your browser:
+   
+   dist\index.html
+   
+   Note: Some features may not work without a server.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📱 INSTALL AS DESKTOP APP:
+
+Once running in your browser:
+• Chrome/Edge: Click the ⊕ icon in address bar → Install
+• Safari Mac: File → Add to Dock
+• Safari iOS: Share → Add to Home Screen
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 FIRST TIME SETUP:
+
+If this is your first time:
+1. Run: npm install (one time only)
+2. Then use any option above to start
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 FEATURES:
+
+✓ Dashboard with real-time stats
+✓ Product & inventory management
+✓ Point of Sale (POS) system
+✓ Stock tracking & alerts
+✓ Price sticker generator
+✓ Detailed reports & analytics
+✓ Works offline (PWA)
+✓ Data saved locally
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🆘 TROUBLESHOOTING:
+
+Blank page?
+→ Use Option 1 or 2 (needs server)
+
+Port 3000 in use?
+→ Edit server.cjs, change PORT = 3000 to another number
+
+Need to rebuild?
+→ Delete the "dist" folder, then run start.bat again
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+For detailed instructions, see: README.md
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
