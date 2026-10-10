@@ -45,6 +45,6 @@ echo  Press Ctrl+C to stop the server.
 echo.
 
 REM Start the server
-node server.js
+node server.cjs
 
 pause

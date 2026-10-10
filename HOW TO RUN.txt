@@ -23,7 +23,7 @@ OPTION 2: MANUAL START
 ────────────────────────
    Open Command Prompt in this folder, then type:
    
-   node server.js
+   node server.cjs
    
    Then open: http://localhost:3000
 
@@ -75,7 +75,7 @@ Blank page?
 → Use Option 1 or 2 (needs server)
 
 Port 3000 in use?
-→ Edit server.js, change PORT = 3000 to another number
+→ Edit server.cjs, change PORT = 3000 to another number
 
 Need to rebuild?
 → Delete the "dist" folder, then run start.bat again

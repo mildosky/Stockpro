@@ -23,7 +23,7 @@ npm install
 npm run build
 
 # Start the server
-node server.js
+node server.cjs
 ```
 
 Then open http://localhost:3000 in your browser.
@@ -127,7 +127,7 @@ stockpro/
 │   └── index.css        # Global styles
 ├── public/              # Static assets
 ├── dist/                # Build output (generated)
-├── server.js            # Node.js server
+├── server.cjs           # Node.js server
 ├── start.bat            # Windows launcher
 └── package.json         # Dependencies
 ```
@@ -141,7 +141,7 @@ node server.js
 ```
 
 ### Port 3000 already in use
-Edit `server.js` and change the PORT variable.
+Edit `server.cjs` and change the PORT variable.
 
 ### Data not saving
 Make sure your browser allows localStorage. Check browser settings.
