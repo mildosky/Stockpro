@@ -14,7 +14,7 @@ interface POSPageProps {
   stockMovements: StockMovement[];
 }
 
-export default function POSPage({ products, sales, businessType, onAddSale, onUpdateProducts, onAddMovement, stockMovements }: POSPageProps) {
+export default function POSPage({ products, sales, businessType, onAddSale, onUpdateProducts, onAddMovement }: POSPageProps) {
   const [cart, setCart] = useState<SaleItem[]>([]);
   const [search, setSearch] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');

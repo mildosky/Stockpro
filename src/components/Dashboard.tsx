@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { DollarSign, Package, TrendingUp, AlertTriangle, ShoppingCart, BarChart3 } from 'lucide-react';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line, PieChart, Pie, Cell } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 import { Product, Sale, Category, StockMovement } from '../types';
 import { format, subDays, startOfDay, isAfter } from 'date-fns';
 
